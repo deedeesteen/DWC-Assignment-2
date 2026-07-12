@@ -205,15 +205,21 @@ footer {
 
 input, textarea, select {
     width: 100%;
+    background-color: #ecd0d9;
 }
 
-input[type="submit"] {
+button:hover {
+    background-color: #660f2d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button {
     display: block;
     width: 30%;
     margin: 1em auto;
-    height: 25px;
+    height: 40px;
     background-color: #fab500;
-    color: black;
     font-weight: bold;
 }
 
